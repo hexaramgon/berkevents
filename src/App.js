@@ -10,7 +10,7 @@ import Landing from './pages/Landing';
 import Error from './pages/Error';
 import Rates from './pages/Rates';
 import Contact from './pages/Contact';
-import Berklogo from './IMG_7742.png'
+import Berklogo from './IMG_1989.png'
 import PastEvents from './pages/PastEvents';
 
 
