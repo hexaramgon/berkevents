@@ -17,7 +17,10 @@ h3{
   color: black;
   font-weight: 400;
   font-size: 20px;
+}
 
+h4{
+  margin: 0.8rem;
 }
 
 a{
@@ -50,11 +53,10 @@ h2{
 span{
   color: white;
   font-size: 15px;
-  font-weight:400;
-  margin-left: 25px;
-  margin-top: 25px;
-  font-family: freight-sans-pro;
+  margin-left: 2rem;
 
+  font-weight:400;
+  font-family: freight-sans-pro;
 }
 
 #bottext{
@@ -76,7 +78,7 @@ a{
 }
 
 .logofix{
-  height:2.2rem;
+  height:2.5rem;
   margin-left: 10px;
   object-fit: cover;
 }
@@ -102,13 +104,15 @@ a{
 .eventitle{
   background-color: #082A58;
   margin: 2rem;
+  margin-bottom: 3.5rem;
+
   border-radius: 25px;
   height: 35vh;
   text-align: center;
 }
 
 .Banner{
-  height: 74vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -138,10 +142,45 @@ a{
   background-color: #0B3D72;
   height: 45vh;
   width: 100%;
-  margin-top: 5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+
+.section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.thumbnail{
+  height: 80px;
+  width: auto;
+  margin-right: 2rem;
+}
+
+.firstpart{
+  text-align: center;
+  width: 40%;
+}
+
+.testitle{
+  margin-left: 1.6rem;
+}
+
+.calfix{
+  width: 20px;
+}
+
+.lower{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.calandarpart{
+  color: black;
 }
 
 .leftcol{
@@ -155,13 +194,18 @@ a{
   margin-top: 38rem;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
 #berkfix{
   width:200px;
   height: auto;
-  filter: grayscale(100%);
-  filter: brightness(100%);
-  filter: saturate(50%);
-  filter: invert(100%);
 }
 
 .currentplay{
@@ -170,9 +214,15 @@ a{
   margin-top: 40px;
 }
 
+.speakerbios{
+  width: 80%;
+  margin-left: 8rem;
+}
+
 .titleofvid{
   color: white;
-  text-align: center;
+  margin-top: 3rem;
+
   color: black;
   font-size: 24px;
   font-weight: 700;
@@ -193,11 +243,40 @@ a{
 }
 
 .bottomsyn{
-  margin-top: 3rem;
-  background-color: #4B7CA1;
+  margin-top: 1rem;
+  background-color: rgb(235, 235, 235);
   width: 80%;
   height: 350px;
-  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.alterego{
+  background-color: #082A58;
+  height: 350px;
+  width: 80%;
+  position: relative;
+  z-index: 0;
+  top: -300px;
+  right: -50px
+}
+
+#otheraxx{
+  width: 90%;
+  height: 400px;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.alteregotwo{
+  background-color: #D8A13B;
+  height: 400px;
+  width: 90%;
+  position: relative;
+  z-index: 0;
+  top: -350px;
+  right: -50px
 }
 
 #bot{
@@ -359,6 +438,36 @@ a.fromLeft:after{  transform-origin:  0% 50%; }
 
 .colorfix{
   color: black;
+}
+
+
+.card {
+  width: 30ch;
+  height: 50ch;
+  background: grey;
+  border-radius: 5px;
+  background-image: url(https://www.jweekly.com/wp-content/uploads/2020/03/carol-1WEB.jpg);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+
+#extra{
+  background-image: url(https://cdn.britannica.com/06/202006-050-64C85CC7/Neil-deGrasse-Tyson-2018.jpg);
+}
+
+.card:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.speakerbiorow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 4rem;
 }
 
 
