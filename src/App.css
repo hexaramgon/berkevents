@@ -54,9 +54,27 @@ span{
   color: white;
   font-size: 15px;
   margin-left: 2rem;
-
   font-weight:400;
   font-family: freight-sans-pro;
+}
+
+.footertext{
+  margin: 0px;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footertextv2{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.fire{
+  padding: 1rem;
 }
 
 #bottext{
@@ -87,6 +105,8 @@ a{
   width: 35%;
   object-fit: cover;
   margin: 2rem;
+  box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
 }
 
 .uh{
@@ -105,6 +125,7 @@ a{
   background-color: #082A58;
   margin: 2rem;
   margin-bottom: 3.5rem;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
 
   border-radius: 25px;
   height: 35vh;
@@ -124,7 +145,7 @@ a{
 }
 
 .col1{
-  height: 100%;
+  height: 60%;
   background-color: white;
   width: 65%;
   display: flex;
@@ -133,9 +154,10 @@ a{
 }
 
 .col2{
-  height: 100%;
+  height: 80vh;
   background-color: white;
   width: 30%;
+  text-align: center;
 }
 
 .footer{
@@ -183,10 +205,6 @@ a{
   color: black;
 }
 
-.leftcol{
-  display: flex;
-  flex-direction: column;
-}
 
 .yellow{
   background-color: #D8A13B;
@@ -206,6 +224,7 @@ hr {
 #berkfix{
   width:200px;
   height: auto;
+  margin-bottom: 6rem;
 }
 
 .currentplay{
@@ -249,6 +268,8 @@ hr {
   height: 350px;
   position: relative;
   z-index: 1;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+
 }
 
 .alterego{
@@ -258,7 +279,7 @@ hr {
   position: relative;
   z-index: 0;
   top: -300px;
-  right: -50px
+  right: -50px;
 }
 
 #otheraxx{
@@ -409,6 +430,8 @@ a.fromLeft:after{  transform-origin:  0% 50%; }
   margin-top: 1.2rem;
   border-radius: 5px;
   justify-content: space-between;
+  box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
 }
 
 .active, .collapsible:hover {
@@ -468,6 +491,25 @@ a.fromLeft:after{  transform-origin:  0% 50%; }
   flex-direction: row;
   justify-content: space-evenly;
   margin: 4rem;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-col{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 3rem;
+}
+
+.iconfix{
+  width: 40px;
+  height: auto;
+  margin-left: 1rem;
+  margin-top: 15px;
 }
 
 

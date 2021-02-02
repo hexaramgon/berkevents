@@ -45,7 +45,9 @@ class Button extends React.Component {
                     <h4>9:30 a.m</h4>
                     <h4>11:00 a.m</h4>
                     <div className = "lower">
-                        <span className="calandarpart">Add to Calander</span>
+                    <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Test+Event&dates=20210208T173000Z/20210208T193000Z&sprop=website:open.berkeley.edu&location&details=This+is+just+a+test.&website=https://test-ets.pantheon.berkeley.edu/events">
+                        <span className="calandarpart">Add to Calendar</span>
+                    </a>
                         <img src={Cal} className="calfix"></img>
                     </div>
                 </div>
@@ -61,7 +63,10 @@ class Button extends React.Component {
                     <h4>11:30 a.m</h4>
                     <h4>12:00 a.m</h4>
                     <div className = "lower">
-                        <span className="calandarpart">Add to Calander</span>
+                    <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Test+Event&dates=20210208T173000Z/20210208T193000Z&sprop=website:open.berkeley.edu&location&details=This+is+just+a+test.&website=https://test-ets.pantheon.berkeley.edu/events">
+                        <span className="calandarpart">Add to Calendar</span>
+                    </a>
+
                         <img src={Cal} className="calfix"></img>
                     </div>
                 </div>
@@ -77,7 +82,10 @@ class Button extends React.Component {
                     <h4>12:00 a.m</h4>
                     <h4>1:30 p.m</h4>
                     <div className = "lower">
-                        <span className="calandarpart">Add to Calander</span>
+                    <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Test+Event&dates=20210208T173000Z/20210208T193000Z&sprop=website:open.berkeley.edu&location&details=This+is+just+a+test.&website=https://test-ets.pantheon.berkeley.edu/events">
+                        <span className="calandarpart">Add to Calendar</span>
+                    </a>
+
                         <img src={Cal} className="calfix"></img>
                     </div>
                 </div>
@@ -93,7 +101,10 @@ class Button extends React.Component {
                     <h4>2:00 p.m</h4>
                     <h4>3:00 p.m</h4>
                     <div className = "lower">
-                        <span className="calandarpart">Add to Calander</span>
+                    <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Test+Event&dates=20210208T173000Z/20210208T193000Z&sprop=website:open.berkeley.edu&location&details=This+is+just+a+test.&website=https://test-ets.pantheon.berkeley.edu/events">
+                        <span className="calandarpart">Add to Calendar</span>
+                    </a>
+
                         <img src={Cal} className="calfix"></img>
                     </div>
                 </div>

@@ -6,6 +6,7 @@ import Running from '../running.jpg'
 import Dropdown from '../components/dropdown.js'
 import Berk from '../berkalerk.png'
 import Speaker from '../components/speaker.js'
+import Footer from "../components/footer";
 
 
 
@@ -68,23 +69,10 @@ const Landing = () => {
             <div className = "alteregotwo">
              </div>
             </div>
-
             </div>
-                
-        <div className = "footer">
-            <div className="left-col">
-                <img src={Berk} id = "berkfix"></img>
-            <p>Copyright © 2021 UC Regents; all rights reserved</p>
-            <p>Created by the Berkeley Audio Visual Team</p>
-            <p>Privacy Statement</p>
-            </div>
-            <div className="right-col">
-            <p>Subscribe to the UC Berkeley Events Youtube Channel</p>
-            <p>Connect with us on Facebook</p>
-            <p>Follow us on Twitter </p>
-            </div>
-        </div>
+            <Footer></Footer>
     </>
+    
       );
   };    
   
